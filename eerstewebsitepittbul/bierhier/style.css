@@ -91,7 +91,7 @@ body{
     background:skyblue;
 }
 footer{
-    background: #d4d4d4;
+    background: #9b9b9b;
     padding:24px;
     margin-top: 32px;
 }
@@ -104,24 +104,4 @@ footer{
 }
 .mason{
     margin-top:65px;
-}
-
-form ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-form ul li{
-    padding: 10px;
-}
-
-form ul li input{
-    position: absolute;
-}
-.submit{
-    width:100%;
-    font-size: 14px;
-    height:32px;
-    margin:auto;
-    background-color: #d4d4d4;
 }

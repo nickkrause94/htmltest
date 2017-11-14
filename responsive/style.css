@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background-color:rgb(250,241,234);
+          font-family: 'Raleway', sans-serif;
+    }
+
+header{
+    text-align:center;
+    background-color:rgb(193,240,223);
+}
+
+img#logo {
+    width:320px;
+}
+
+li{
+    background-color:rgb(128,128,128);
+    padding:10px;
+    border:solid white 1px;
+    padding-left:20px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li a{
+    color:white;
+    text-decoration:none;
+    font-weight:700;
+}
+
+@media all and (min-width: 550px) {
+    ul{
+        background-color:rgb(128,128,128);
+    }
+    li{
+        display: inline-block;
+        border:none;
+    }
+}
+
+h3{
+    color:rgb(220,106,94);
+        font-weight:600;
+}
+
+section, footer{
+    padding-left:20px;
+}
+.iframe{
+    width:94%;
+}
+@media all and (min-width: 550px) {
+    #drums, #saxofoon{
+        padding-left:0;
+    }
+    section#nieuws{
+        float: left;
+        width: 36%;
+    }
+    section#drums{
+        float:right;
+        width:60%;
+    }
+    section#gitaar{
+        float: left;
+        width: 36%;
+    }
+    section#saxofoon{
+        float:right;
+        width:60%;
+    }
+    section#trompet{
+        float: left;
+        width: 36%;
+    }
+}
+
+@media all and (min-width: 920px) {
+    section#nieuws{
+        float: left;
+        width: 33%;
+    }
+    section#drums{
+        float:right;
+        width:33%;
+    }
+    section#gitaar{
+        float: left;
+        width: 33%;
+        margin-top: -19px;
+    }
+    section#saxofoon{
+        float:right;
+        width:33%;
+    }
+    section#trompet{
+        float: left;
+        width: 33%;
+    }
+
+    section{
+        display: inline-block;
+    }
+}
+
+footer{
+    background-color:rgb(128,128,128);
+    color: white;
+    clear: both;
+}
+
+footer h3{
+    color: white;
+}
+
+nav{
+    background-color:rgb(128,128,128);
+}
+
+.clearfix {
+    clear:both;
+}
+.img {
+    width:100%;
+}
