@@ -89,21 +89,23 @@ section, footer{
         width: 33%;
     }
     section#drums{
-        float:right;
+
         width:33%;
     }
     section#gitaar{
-        float: left;
+
         width: 33%;
-        margin-top: -19px;
     }
     section#saxofoon{
-        float:right;
+
         width:33%;
     }
     section#trompet{
-        float: left;
+
         width: 33%;
+    }
+    section#instrumenten{
+        float:right
     }
 
     section{
